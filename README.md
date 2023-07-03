@@ -47,3 +47,57 @@ flexible schedule, which may be filled with exams or other appointments away fro
 ### Admin View
 
 ![Screenshot](misc/admin_view/admin1.png)
+
+## Stakeholder requirements
+
+### Student
+
+- Students use the application to enter planned absences. They can enter into the application when
+  they want to write exams or when they want to take vacation. They get an overview of their
+  remaining vacation time, their vacations and exams in general.
+
+### Tutor
+
+- Tutors are responsible for monitoring student attendance and contacting an administrator if a
+  student is unlawfully absent. For this purpose, they can see when students are absent. The
+  application is designed to provide tutors with a detailed overview of scheduled absences.
+
+### Admin
+
+- Admins get an overview of log messages which are generated when a student performs an action for
+  himself in the system. They also have access to the functionalities of a tutor.
+
+## Architectural Overview
+
+### General (onion architecture)
+
+- With the onion architecture, we have an infrastructure that denies access from inner layers to
+  outer layers. This makes the domain model free of technical aspects and the domain-oriented code
+  is better separated from the technical code. Within the layers high cohesion develops and between
+  the layers small coupling develops.
+
+### Domain context
+
+- Entities
+  - Student
+    - Fields: id : Long, githubName : String, githubId : String, vacations : List\<Vacation>,
+      examIds : List\<ExamId>, aggregatedVacationTime : Long
+  - Exam
+    - Fields: examId : Long, name : String, exemptionOffset : Integer, timeframe : Timeframe,
+      online : Boolean
+  - LogMessage
+    - Fields: id : Long, githubId : String, action : String, createdAt : LocalDateTime
+- Values
+  - ExamId
+    - Fields: id: Long
+  - Timeframe
+    - Fields: date : LocalDate, start : LocalTime, end : LocalTime
+  - Vacation
+    - Fields: timeframe : Timeframe, reason : String
+
+### Technical context
+
+- Spring Boot Framework: the framework of choice as it is perfect for monolith development
+- GitHub OAuth2: the provider for authentication, since most computer science students
+  already use it
+- MariaDB: the database of choice, as it works smoothly between different processor architectures
