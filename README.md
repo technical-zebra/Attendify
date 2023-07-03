@@ -1,4 +1,4 @@
-# Attendify
+# Attendance-Manager
 
 A spring boot application with a web user interface (thymeleaf) to manage project participant
 absences in a university environment where students need to build daily attendance into their
@@ -23,13 +23,14 @@ flexible schedule, which may be filled with exams or other appointments away fro
 4. Set your "Personal Preferences" in the `application.properties` file which is located
    in `../src/main/resources/application.properties`
 5. Start the preconfigured Docker container for the database.
-   - `docker-compose up` while being in the directory
-   - or `docker-compose up -d` if you want to continue using the terminal
+    - `docker-compose up` while being in the directory
+    - or `docker-compose up -d` if you want to continue using the terminal
 6. Export the needed environment variables:
-   - `export CLIENT_ID=YOUR_ClIENT_ID`
-   - `export CLIENT_SECRET=YOUR_CLIENT_SECRET`
+    - `export CLIENT_ID=YOUR_ClIENT_ID`
+    - `export CLIENT_SECRET=YOUR_CLIENT_SECRET`
 7. Start the application with `./gradlew bootRun` or `gradle bootRun` depending on your operating
    system.
+
 ## Different stakeholder views
 
 ### Student View
@@ -79,21 +80,21 @@ flexible schedule, which may be filled with exams or other appointments away fro
 ### Domain context
 
 - Entities
-  - Student
-    - Fields: id : Long, githubName : String, githubId : String, vacations : List\<Vacation>,
-      examIds : List\<ExamId>, aggregatedVacationTime : Long
-  - Exam
-    - Fields: examId : Long, name : String, exemptionOffset : Integer, timeframe : Timeframe,
-      online : Boolean
-  - LogMessage
-    - Fields: id : Long, githubId : String, action : String, createdAt : LocalDateTime
+    - Student
+        - Fields: id : Long, githubName : String, githubId : String, vacations : List\<Vacation>,
+          examIds : List\<ExamId>, aggregatedVacationTime : Long
+    - Exam
+        - Fields: examId : Long, name : String, exemptionOffset : Integer, timeframe : Timeframe,
+          online : Boolean
+    - LogMessage
+        - Fields: id : Long, githubId : String, action : String, createdAt : LocalDateTime
 - Values
-  - ExamId
-    - Fields: id: Long
-  - Timeframe
-    - Fields: date : LocalDate, start : LocalTime, end : LocalTime
-  - Vacation
-    - Fields: timeframe : Timeframe, reason : String
+    - ExamId
+        - Fields: id: Long
+    - Timeframe
+        - Fields: date : LocalDate, start : LocalTime, end : LocalTime
+    - Vacation
+        - Fields: timeframe : Timeframe, reason : String
 
 ### Technical context
 
@@ -104,11 +105,11 @@ flexible schedule, which may be filled with exams or other appointments away fro
 
 ## Quality Goals
 
-| Goal                            | Description                                                  |
-| ------------------------------- | ------------------------------------------------------------ |
-| Efficiency                      | Attendance Manager is designed to allow a student to comfortably obtain their leave of absence with as few clicks as possible. |
-| Usability                       | Chicken is supposed to put a lot of emphasis on usability by enabling everyone to have access and feel integrated through optimised accessibility. |
-| Modifiability                   | By using interfaces, components can be exchanged without affecting the functionality of other components and due to the structure the coupling is low. This allows easy changes. |
+| Goal                            | Description                                                                                                                                                                                                                                                                                  |
+|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Efficiency                      | Attendance Manager is designed to allow a student to comfortably obtain their leave of absence with as few clicks as possible.                                                                                                                                                               |
+| Usability                       | Chicken is supposed to put a lot of emphasis on usability by enabling everyone to have access and feel integrated through optimised accessibility.                                                                                                                                           |
+| Modifiability                   | By using interfaces, components can be exchanged without affecting the functionality of other components and due to the structure the coupling is low. This allows easy changes.                                                                                                             |
 | Analyzability / Maintainability | All layers have defined tasks. It is ensured by different types of tests of the test pyramid that each component performs its task and in case of a change in the program which is accompanied by e.g. a logic change, the respective tests will fail and the error can be made out quickly. |
 
 ## Vacation and Exam enrollment logic
@@ -133,6 +134,6 @@ flexible schedule, which may be filled with exams or other appointments away fro
 - if you book an exam which falls on the period of an already booked vacation, the vacation will be
   divided according to its length or cancelled completely in case of a complete overlap
 - other basic rules for the creation of an exam are
-  - the start time must be before the end time
-  - the day of the exam must be within the project period
-  - no exam can be created twice
+    - the start time must be before the end time
+    - the day of the exam must be within the project period
+    - no exam can be created twice
