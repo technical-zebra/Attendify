@@ -101,3 +101,27 @@ flexible schedule, which may be filled with exams or other appointments away fro
 - GitHub OAuth2: the provider for authentication, since most computer science students
   already use it
 - MariaDB: the database of choice, as it works smoothly between different processor architectures
+
+## Quality Goals
+
+| Goal                            | Description                                                  |
+| ------------------------------- | ------------------------------------------------------------ |
+| Efficiency                      | Attendance Manager is designed to allow a student to comfortably obtain their leave of absence with as few clicks as possible. |
+| Usability                       | Chicken is supposed to put a lot of emphasis on usability by enabling everyone to have access and feel integrated through optimised accessibility. |
+| Modifiability                   | By using interfaces, components can be exchanged without affecting the functionality of other components and due to the structure the coupling is low. This allows easy changes. |
+| Analyzability / Maintainability | All layers have defined tasks. It is ensured by different types of tests of the test pyramid that each component performs its task and in case of a change in the program which is accompanied by e.g. a logic change, the respective tests will fail and the error can be made out quickly. |
+
+## Vacation and Exam enrollment logic
+
+### Vacation Logic
+
+- it is only possible to register for vacations that take place after the current day and time and
+  do not fall on a weekend
+- the start and the end must be divisible by the configured interval
+- the start time must be before the end time and the day of the exam must be within the project
+  period
+- a vacation can only be registered if there is sufficient remaining vacation time, and if there is
+  no exam on the same day, the vacation must comply with the maximum permissible duration
+- if a new vacation conflicts with an already registered vacation, it is checked whether it is
+  possible to merge the two vacations and whether they would then meet the already mentioned
+  requirements
