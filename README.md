@@ -125,3 +125,14 @@ flexible schedule, which may be filled with exams or other appointments away fro
 - if a new vacation conflicts with an already registered vacation, it is checked whether it is
   possible to merge the two vacations and whether they would then meet the already mentioned
   requirements
+
+### Exam Logic
+
+- it is only possible to register for exams that take place after the current day
+- it is possible for a student to cancel the registration until 23:59 on the day before the exam
+- if you book an exam which falls on the period of an already booked vacation, the vacation will be
+  divided according to its length or cancelled completely in case of a complete overlap
+- other basic rules for the creation of an exam are
+  - the start time must be before the end time
+  - the day of the exam must be within the project period
+  - no exam can be created twice
