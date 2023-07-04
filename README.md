@@ -4,7 +4,7 @@ A spring boot app features a web UI (thymeleaf) for handling project participant
 
 ## Installation and configuration
 
-1. Clone the repository and leave a star.
+1. Clone the repository.
 2. Make sure that you have `JDK 17.x` and `docker` installed!
 3. Register a new OAuth application on
    GitHub ([tutorial here](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app))
