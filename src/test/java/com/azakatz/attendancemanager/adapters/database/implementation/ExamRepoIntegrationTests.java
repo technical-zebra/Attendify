@@ -13,13 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.ActiveProfiles;
 
-/**
- * It is debatable if you should save data in the arrangement step with the JPA DataAccessObject or
- * with the save method from your own repository implementation. I've done it both ways in different
- * tests, for educational purposes.
- *
- * @author janlingen
- */
+
 @DataJpaTest
 @ActiveProfiles("test")
 public class ExamRepoIntegrationTests {

@@ -5,9 +5,6 @@ import com.azakamu.attendancemanager.domain.values.ExamId;
 import java.util.Set;
 import org.mapstruct.Mapper;
 
-/**
- * @author janlingen
- */
 @Mapper
 public interface ExamIdMapper {
 

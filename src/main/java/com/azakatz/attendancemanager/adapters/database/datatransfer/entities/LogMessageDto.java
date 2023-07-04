@@ -7,9 +7,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import org.hibernate.annotations.CreationTimestamp;
 
-/**
- * @author janlingen
- */
+
 @Entity
 public class LogMessageDto {
 

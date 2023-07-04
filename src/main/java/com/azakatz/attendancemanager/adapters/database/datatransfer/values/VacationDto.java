@@ -2,9 +2,7 @@ package com.azakamu.attendancemanager.adapters.database.datatransfer.values;
 
 import javax.persistence.Embeddable;
 
-/**
- * @author janlingen
- */
+
 @Embeddable
 public class VacationDto {
 

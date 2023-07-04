@@ -18,16 +18,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Service;
 
-/**
- * Architecture tests to ensure that the previously defined models and rules are adhered to during
- * the development process.
- * <p>
- * I recommend writing such tests at the very beginning of a project.
- * <p>
- * This project is subject to an onion architecture.
- *
- * @author janlingen
- */
+
 @AnalyzeClasses(
     packagesOf = AttendanceManagerApplication.class,
     // alternative: packagesOf = "com.azakamu.attendancemanager"

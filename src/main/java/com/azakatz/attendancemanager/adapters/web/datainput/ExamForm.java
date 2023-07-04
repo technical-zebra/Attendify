@@ -4,9 +4,6 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import org.springframework.format.annotation.DateTimeFormat;
 
-/**
- * @author janlingen
- */
 public record ExamForm(
     String name,
     Boolean onlineExam,

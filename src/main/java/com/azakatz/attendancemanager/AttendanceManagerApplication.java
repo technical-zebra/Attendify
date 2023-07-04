@@ -1,4 +1,4 @@
-package com.azakamu.attendancemanager;
+package com.azakatz.attendancemanager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
