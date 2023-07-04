@@ -20,24 +20,6 @@ A spring boot app features a web UI (thymeleaf) for handling project participant
 7. Start the application with `./gradlew bootRun` or `gradle bootRun` depending on your operating
    system.
 
-## Different stakeholder views
-
-### Student View
-
-![Screenshot](misc/student_view/student1.png)
-![Screenshot](misc/student_view/student2.png)
-![Screenshot](misc/student_view/student3.png)
-![Screenshot](misc/student_view/student4.png)
-
-### Tutor View
-
-![Screenshot](misc/tutor_view/tutor1.png)
-![Screenshot](misc/tutor_view/tutor2.png)
-
-### Admin View
-
-![Screenshot](misc/admin_view/admin1.png)
-
 ## Stakeholder requirements
 
 ### Student
