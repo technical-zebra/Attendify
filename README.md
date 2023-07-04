@@ -4,6 +4,7 @@ A spring boot application with a web user interface (thymeleaf) to manage projec
 absences in a university environment where students need to build daily attendance into their
 flexible schedule, which may be filled with exams or other appointments away from home.
 
+
 ## Table of Contents
 
 - [Installation and configuration](#installation-and-configuration)
