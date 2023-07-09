@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e42ce44c-ff96-4e60-bed8-f9385cf7ffcf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/AttendanceManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/AttendanceManagerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/dataaccess/ExamDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/dataaccess/ExamDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/dataaccess/LogMessageDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/dataaccess/LogMessageDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/dataaccess/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/dataaccess/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/datatransfer/entities/ExamDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/datatransfer/entities/ExamDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/datatransfer/entities/LogMessageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/datatransfer/entities/LogMessageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/datatransfer/entities/StudentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/datatransfer/entities/StudentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/datatransfer/values/ExamIdDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/datatransfer/values/ExamIdDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/datatransfer/values/TimeframeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/datatransfer/values/TimeframeDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/datatransfer/values/VacationDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/datatransfer/values/VacationDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/implementation/AdminRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/implementation/AdminRepoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/implementation/ExamRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/implementation/ExamRepoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/implementation/StudentRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/implementation/StudentRepoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/implementation/TutorRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/implementation/TutorRepoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/mapper/ExamIdMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/mapper/ExamIdMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/mapper/ExamMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/mapper/ExamMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/mapper/LogMessageMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/mapper/LogMessageMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/mapper/TimeframeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/mapper/TimeframeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/mapper/VacationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/database/mapper/VacationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/web/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/web/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/web/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/web/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/web/controller/TutorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/web/controller/TutorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/web/datainput/ExamForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/web/datainput/ExamForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/web/datainput/VacationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/adapters/web/datainput/VacationForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/repositories/AdminRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/repositories/AdminRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/repositories/ExamRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/repositories/ExamRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/repositories/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/repositories/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/repositories/TutorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/repositories/TutorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/services/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/services/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/services/ExamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/services/ExamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/services/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/services/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/services/TutorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/services/TutorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/validators/ExamValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/validators/ExamValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/validators/VacationValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/application/validators/VacationValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/configuration/MethodSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/configuration/MethodSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/configuration/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/configuration/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/configuration/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/azakatz/attendancemanager/configuration/WebSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/implementation/AdminRepoIntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/implementation/AdminRepoIntegrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/implementation/ExamRepoIntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/implementation/ExamRepoIntegrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/implementation/StudentRepoIntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/implementation/StudentRepoIntegrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/implementation/TutorRepoIntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/implementation/TutorRepoIntegrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/mapper/ExamIdMapperUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/mapper/ExamIdMapperUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/mapper/ExamMapperUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/mapper/ExamMapperUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/mapper/LogMessageMapperUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/mapper/LogMessageMapperUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/mapper/StudentMapperUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/mapper/StudentMapperUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/mapper/TimeframeMapperUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/mapper/TimeframeMapperUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/mapper/VacationMapperUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/database/mapper/VacationMapperUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/web/controller/AdminControllerIntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/web/controller/AdminControllerIntegrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/web/controller/StudentControllerIntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/web/controller/StudentControllerIntegrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/web/controller/TutorControllerIntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/adapters/web/controller/TutorControllerIntegrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/application/services/AdminServiceUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/application/services/AdminServiceUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/application/services/ExamServiceUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/application/services/ExamServiceUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/application/services/StudentServiceUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/application/services/StudentServiceUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/application/services/TimeServiceUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/application/services/TimeServiceUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/application/services/TutorServiceUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/application/services/TutorServiceUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/architecture/ArchUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azakatz/attendancemanager/architecture/ArchUnitTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2S6FhRYx1qqswfLq4yYYemBGwRq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e42ce44c-ff96-4e60-bed8-f9385cf7ffcf" name="Changes" comment="" />
+      <created>1688459248421</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688459248421</updated>
+      <workItem from="1688459252810" duration="373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
