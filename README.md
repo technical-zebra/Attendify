@@ -1,22 +1,10 @@
-# Attendance-Manager
+# Attendify
 
-A spring boot application with a web user interface (thymeleaf) to manage project participant
-absences in a university environment where students need to build daily attendance into their
-flexible schedule, which may be filled with exams or other appointments away from home.
-
-
-## Table of Contents
-
-- [Installation and configuration](#installation-and-configuration)
-- [Different stakeholder views](#different-stakeholder-views)
-- [Stakeholder requirements](#stakeholder-requirements)
-- [Architectural overview](#architectural-overview)
-- [Quality goals](#quality-goals)
-- [Vacation and Exam enrollment logic](#vacation-and-exam-enrollment-logic)
+A spring boot app features a web UI (thymeleaf) for handling project participant absences in a university setting. Students are required to incorporate daily attendance into their adaptable schedules, which can include exams or other off-campus commitments.
 
 ## Installation and configuration
 
-1. Clone the repository and leave a star.
+1. Clone the repository.
 2. Make sure that you have `JDK 17.x` and `docker` installed!
 3. Register a new OAuth application on
    GitHub ([tutorial here](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app))
@@ -31,24 +19,6 @@ flexible schedule, which may be filled with exams or other appointments away fro
     - `export CLIENT_SECRET=YOUR_CLIENT_SECRET`
 7. Start the application with `./gradlew bootRun` or `gradle bootRun` depending on your operating
    system.
-
-## Different stakeholder views
-
-### Student View
-
-![Screenshot](misc/student_view/student1.png)
-![Screenshot](misc/student_view/student2.png)
-![Screenshot](misc/student_view/student3.png)
-![Screenshot](misc/student_view/student4.png)
-
-### Tutor View
-
-![Screenshot](misc/tutor_view/tutor1.png)
-![Screenshot](misc/tutor_view/tutor2.png)
-
-### Admin View
-
-![Screenshot](misc/admin_view/admin1.png)
 
 ## Stakeholder requirements
 
